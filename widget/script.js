@@ -256,7 +256,7 @@ define(['jquery'], function ($) {
 									return success;
 								},
 								error: function (err) {
-									console.error(err.message);
+									console.error(err);
 								}	
 						    });
 						
